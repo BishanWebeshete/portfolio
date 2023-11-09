@@ -4,8 +4,8 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand text-light" href="#">
-          Navbar
+        <a className="navbar-brand text-light" href="/">
+          Bishan Webeshete
         </a>
         <button
           className="navbar-toggler"
@@ -23,17 +23,21 @@ export default function Navbar() {
             <a
               className="nav-link active text-light"
               aria-current="page"
-              href="#"
+              href="/"
             >
               Home
             </a>
-            <a className="nav-link text-light" href="#">
+            <a className="nav-link text-light" href="/">
               About
             </a>
-            <a className="nav-link text-light" href="#">
+            <a className="nav-link text-light" href="/">
               Projects
             </a>
-            <a className="nav-link disabled text-light" aria-disabled="true">
+            <a
+              className="nav-link disabled text-light"
+              aria-disabled="true"
+              href="/"
+            >
               Resume
             </a>
           </div>
